@@ -1,2 +1,2 @@
-# SupportBubbleTheme
-Support Bubble Website Theme
+# PluginCube
+PluginCube Website Theme
