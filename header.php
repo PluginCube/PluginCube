@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- HTML -->
 <html class="no-js" <?php language_attributes(); ?>>
 
 <!-- Head -->
@@ -15,35 +17,35 @@
 <?php wp_body_open(); ?>
 
 <!-- Header -->
-<header class="nav-wrap bg-dark fixed-top">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark px-lg-0">
+<header class="header">
+	<div class="container d-flex justify-content-between align-items-center">
+		<div class="primary d-flex align-items-center">
 			<a class="navbar-brand" href="<?= home_url() ?>">
-                <?= get_bloginfo() ?>
-            </a>
+				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.png" alt="<?= get_bloginfo() ?>">
+			</a>
 
-			<div class="collapse navbar-collapse justify-content-between">
+			<?php
+				wp_nav_menu([
+					'theme_location' => 'primary',
+					'container' => 'nav',
+				]);
+			?>
+		</div>
+
+		<div class="secondary d-flex align-items-center">
+			<ul class="menu">
 				<?php
 					wp_nav_menu([
-						'theme_location'  => 'primary',
-						'depth'           => 2,
-						'container'       => 'ul',
-						'menu_class'      => 'navbar-nav',
+						'theme_location'  => 'secondary',
+						'container'       => false,
+						'items_wrap' => '%3$s'
 					]);
 				?>
 
-				<ul class="navbar-nav">
-					<li class="nav-item swap-link">
-						<a class="nav-link" href="<?= get_option('cp_user_login_url') ?? null ?>">
-							<i class="las la-user mr-2" style="font-size:20px;"></i>
-						</a>
-					</li>
-
-					<li class="nav-item swap-link">
-						<a class="nav-link no-arrow btn btn-primary swap-link text-white" href="#">Get the Plugin</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+				<li>
+					<a class="header-btn" href="#">Get Started</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </header>
