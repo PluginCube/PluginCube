@@ -42,8 +42,8 @@
 					]);
 				?>
 
-				<li>
-					<a class="header-btn" href="#">Get Started</a>
+				<li class="header-btn">
+					<a href="#">Get Started</a>
 				</li>
 			</ul>
 		</div>
