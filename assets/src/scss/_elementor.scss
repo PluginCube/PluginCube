@@ -1,0 +1,99 @@
+/**
+ * Elementor
+*/
+
+.elementor-widget {
+
+    /* Icon box */
+    &.elementor-widget-icon-box {
+        .elementor-icon-box-icon {
+            padding-bottom: 15px;
+
+            .elementor-icon {
+                font-size: 42px;
+            }
+        }
+
+        .elementor-icon-box-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .elementor-icon-box-description {
+            font-size: 14px;
+        }
+    }
+
+
+    /* Icon list */
+    &.elementor-widget-icon-list {
+        li.elementor-icon-list-item {
+            font-size: 14px;
+            margin-bottom: 8px;
+            position: relative;
+
+            .elementor-icon-list-icon i {
+                width: 14px;
+            }
+
+            .elementor-icon-list-icon {
+                color: var(--brand);
+            }
+            .elementor-icon-list-text {
+                padding-left: 18px;
+            }
+        }
+    }
+
+    /* Button */
+    &.elementor-widget-button {
+        .elementor-button {
+            transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border-radius: 3px;
+            padding: 0 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 48px;
+            background: var(--brand);
+            color: #fff;
+            max-width: 100%;
+            font-size: 14px;
+            font-weight: 700;
+            border: 0;
+            outline: 0;
+            cursor: pointer;
+        
+            &:hover {
+                background: var(--brand-hover);
+            }
+        }
+
+        &.full {
+            .elementor-button {
+                width: 100%;
+            }
+        }
+
+        &.accent {
+            .elementor-button {
+                color: var(--brand);
+                border: 2px solid;
+                background: transparent;
+
+                &:hover {
+                    border-color: var(--brand);
+                    background: var(--brand);
+                    color: #fff;        
+                }
+            }
+        }
+
+        &.pricing {
+            .elementor-button {
+                font-size: 16px;
+                font-weight: 500;            
+            }
+        }
+    }
+}
