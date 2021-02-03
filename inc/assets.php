@@ -19,6 +19,13 @@ add_action('wp_enqueue_scripts', function() {
 		get_template_directory_uri() . '/assets/dist/css/main.css'
 	);
 
+
+	wp_enqueue_script(
+		'freemius-js',
+		'https://checkout.freemius.com/checkout.min.js',
+		['jquery']
+	);
+
 	wp_enqueue_script(
 		'plugincube-js',
 		get_template_directory_uri() . '/assets/dist/js/main.js'

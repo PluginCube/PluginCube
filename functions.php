@@ -1,4 +1,6 @@
 <?php
+namespace PluginCube;
+
 /**
  * Include PHP files, nothing else.
  *
@@ -12,3 +14,10 @@ require_once 'inc/setup.php';
 require_once 'inc/filters.php';
 require_once 'inc/assets.php';
 require_once 'inc/ajax.php';
+
+
+add_action('init', function () {
+    require_once 'inc/elementor/widgets/widgets.php';
+
+    Elementor\Widgets::get_instance();
+});
