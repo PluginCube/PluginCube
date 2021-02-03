@@ -102,22 +102,11 @@ header.header {
             margin-left: 20px;
 
             a {
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                height: 48px;
+                @extend .btn;
+                
+                border-radius: 30px;
                 background: #eeedff;
                 color: #6131e4;
-                padding: 0 40px;
-                max-width: 100%;
-                font-size: 14px;
-                font-weight: 600;
-                border: 0;
-                outline: 0;
-                cursor: pointer;
-                border-radius: 30px;
-                transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
-                padding: 0 24px;
             }
         }    
     }

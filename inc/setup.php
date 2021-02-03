@@ -42,32 +42,32 @@ add_action('after_setup_theme', function() {
  */
 add_action('widgets_init', function () {
     register_sidebar([
-        'name'          => 'Footer: Left',
-        'id'            => 'footer-left',
-        'description'   => 'Left footer column.',
+        'name'          => 'Footer: First',
+        'id'            => 'footer-first',
+        'description'   => 'First footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h6 class="title">',
+        'before_title'  => '<h5>',
         'after_title'   => '</h6>',
     ]);
 
     register_sidebar([
-        'name'          => 'Footer: Center',
-        'id'            => 'footer-center',
-        'description'   => 'Center footer column.',
+        'name'          => 'Footer: Second',
+        'id'            => 'footer-second',
+        'description'   => 'Second footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h6 class="title">',
+        'before_title'  => '<h5>',
         'after_title'   => '</h6>',
     ]);
 
     register_sidebar([
-        'name'          => 'Footer: Right',
-        'id'            => 'footer-right',
-        'description'   => 'Right footer column.',
+        'name'          => 'Footer: Third',
+        'id'            => 'footer-third',
+        'description'   => 'Third footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h6 class="title">',
+        'before_title'  => '<h5>',
         'after_title'   => '</h6>',
     ]);
 });

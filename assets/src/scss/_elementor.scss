@@ -47,25 +47,7 @@
     /* Button */
     &.elementor-widget-button {
         .elementor-button {
-            border-radius: 3px;
-            padding: 0 24px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            height: 48px;
-            background: var(--brand);
-            color: #fff;
-            max-width: 100%;
-            font-size: 14px;
-            font-weight: 700;
-            border: 0;
-            outline: 0;
-            cursor: pointer;
-            transition: all 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
-        
-            &:hover {
-                background: var(--brand-hover);
-            }
+            @extend .btn;
         }
 
         &.full {

@@ -221,7 +221,7 @@ gulp.task('build', gulp.series(
 
 
 gulp.task('dev', gulp.series(
-    gulp.parallel('clean', 'build', 'watch')
+    gulp.parallel('build', 'watch')
 ));
 
 
