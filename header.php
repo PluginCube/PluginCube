@@ -24,12 +24,18 @@
 				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.png" alt="<?= get_bloginfo() ?>">
 			</a>
 
-			<?php
-				wp_nav_menu([
-					'theme_location' => 'primary',
-					'container' => 'nav',
-				]);
-			?>
+			<nav>
+				<a class="navbar-brand mobile-menu-only" href="<?= home_url() ?>">
+					<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.png" alt="<?= get_bloginfo() ?>">
+				</a>
+
+				<?php
+					wp_nav_menu([
+						'theme_location' => 'primary',
+						'container' => false,
+					]);
+				?>
+			</nav>
 		</div>
 
 		<div class="secondary d-flex align-items-center">
@@ -46,6 +52,13 @@
 					<a href="#">Get Started</a>
 				</li>
 			</ul>
+
+			<div class="burger-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="19" height="19">
+					<path fill="none" d="M0 0h24v24H0z"/>
+					<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"/>
+				</svg>
+			</div>
 		</div>
 	</div>
 </header>

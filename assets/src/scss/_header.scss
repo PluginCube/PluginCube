@@ -1,10 +1,14 @@
 header.header {
     padding: 30px 0px;
 
+	.container {
+		padding: 0px 10px;
+	}
+
     .navbar-brand {
         display: flex;
         align-items: center;
-    
+
         img {
             max-height: 60px;
         }
@@ -16,9 +20,9 @@ header.header {
         padding: 0;
         list-style: none;
         line-height: 1;
-        
+
         li {
-            white-space: nowrap;        
+            white-space: nowrap;
         }
 
         > li + li {
@@ -28,7 +32,8 @@ header.header {
         > li {
             display: inline-flex;
             position: relative;
-            
+			align-items: center;
+
             &.menu-item-has-children {
                 > a:after {
                     display: inline-flex;
@@ -41,7 +46,7 @@ header.header {
 
                 &:hover .sub-menu {
                     opacity: 1;
-                    visibility: visible;        
+                    visibility: visible;
                 }
             }
 
@@ -49,7 +54,12 @@ header.header {
                 font-weight: 700;
                 font-size: 15px;
                 padding: 20px 0;
-                color: #343434;            
+				color: #343434;
+				transition: all .5s cubic-bezier(.25,.8,.25,1);
+
+				&:hover {
+					color: var(--brand);
+				}
             }
         }
 
@@ -69,7 +79,7 @@ header.header {
             z-index: 2;
             transition: all .5s cubic-bezier(.25,.8,.25,1);
             border-radius: 3px;
-            
+
             > li {
                 display: block;
                 padding: 0 30px;
@@ -89,7 +99,7 @@ header.header {
 
                     &:hover {
                         opacity: .85;
-                    }        
+                    }
                 }
 
                 &:last-child {
@@ -103,17 +113,102 @@ header.header {
 
             a {
                 @extend .btn;
-                
+
                 border-radius: 30px;
                 background: #eeedff;
                 color: #6131e4;
             }
-        }    
+        }
     }
 
     .primary {
         .menu {
             margin-left: 40px;
         }
-    }
+	}
+
+	svg {
+		fill: currentColor;
+	}
+
+	.burger-icon {
+		align-items: center;
+		display: none;
+		margin-left: 15px;
+		cursor: pointer;
+	}
+
+	.mobile-menu-only {
+		display: none;
+	}
+}
+
+// Resonsive menu
+@media only screen and (max-width: 900px) {
+	header.header {
+		.burger-icon {
+			display: inline-flex;
+		}
+
+		.menu {
+			display: none;
+		}
+
+		.mobile-menu-only {
+			display: inline-flex;
+		}
+
+		nav {
+			width: 300px;
+			max-width: 100%;
+			overflow: hidden;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			background: #ffffff;
+			box-shadow: 0 9px 38px rgba(0,0,0,0.05), 0 5px 12px rgba(0,0,0,0.1);
+			z-index: 2;
+			left: -300px;
+			opacity: 0;
+			transition: all .25s ease-in-out;
+
+			&.open {
+				left: 0px;
+				opacity: 1;
+			}
+
+			.navbar-brand {
+				margin: 30px 30px 60px;
+			}
+
+			.menu {
+				display: block;
+				margin: 0 !important;
+				float: left;
+				border-top: 1px solid #eee;
+
+				> li {
+					display: block;
+					position: relative;
+					align-items: center;
+					width: 100%;
+					float: left;
+					margin: 0 !important;
+					border-bottom: 1px solid #eee;
+
+					> a {
+						padding: 15px 20px;
+						float: left;
+						width: 100%;
+					}
+
+					&.menu-item-has-children {
+						> a::after, .sub-menu {
+							display: none !important;
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -26,6 +26,10 @@ jQuery(($) => {
 
 			toggleVisibility();
 		});
+	});
 
+	// Mobile menu
+	$('.burger-icon').on('click', function () {
+		$('header.header nav').toggleClass('open');
 	});
 });
