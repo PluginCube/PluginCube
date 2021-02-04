@@ -8,4 +8,4 @@ PluginCube Website Theme
     - `pricing` Used to change some styling and for the purchase click event.
 
 ### How to use the Toggle widget
-Add the widget and select the id
+The primary and secondary status, each has a target class. Set the target class and then add it to any element you need to be affected by the toggle status.
