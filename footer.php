@@ -5,7 +5,8 @@
     <div class="container">
         <div class="row">
             <aside class="col-md">
-                <h4 class="footer-logo">Plugin<span>Cube</span></h4>
+				<img class="footer-logo-img" src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">
+                <h4 class="footer-logo-text">Plugin<span>Cube</span></h4>
                 <p class="rights">© 2020 All Rights Reserved.</p>
             </aside>
 

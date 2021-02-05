@@ -21,7 +21,7 @@
 	<div class="container d-flex justify-content-between align-items-center">
 		<div class="primary d-flex align-items-center">
 			<a class="navbar-brand" href="<?= home_url() ?>">
-				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.png" alt="<?= get_bloginfo() ?>">
+				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">
 			</a>
 
 			<nav>

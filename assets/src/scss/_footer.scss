@@ -2,7 +2,7 @@ footer.footer {
     background: #090909;
     color: #979797;
     padding: 85px 0px;
-    
+
     p {
         margin-bottom: 10px;
         font-size: 12px;
@@ -17,18 +17,23 @@ footer.footer {
         position: relative;
         display: block;
         margin-top: 0;
-        margin-bottom: 25px;    
+        margin-bottom: 25px;
     }
 
-    .footer-logo {
-        color: #fff;
-        font-size: 16px;
-        letter-spacing: 0;
-            
-        span {
+    .footer-logo-text {
+		color: #fff;
+		font-size: 16px;
+		letter-spacing: 0;
+		margin-top: 15px;
+
+		span {
             opacity: .6;
         }
     }
+
+	.footer-logo-img {
+		width: 40px;
+	}
 
     .rights {
         font-size: 12px;
@@ -59,6 +64,6 @@ footer.footer {
     .highlighted-widget {
         background: #101010;
         padding: 25px 20px;
-        border-radius: 5px;    
+        border-radius: 5px;
     }
 }
