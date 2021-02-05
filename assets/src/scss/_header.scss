@@ -114,6 +114,11 @@ header.header {
                 background: #eeedff;
                 color: #6131e4;
 				padding: 0 26px;
+
+				&:hover {
+					background: #e5e4f7;
+					color: #6131e4;
+				}
             }
         }
     }
