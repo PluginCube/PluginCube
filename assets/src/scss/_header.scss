@@ -1,5 +1,5 @@
 header.header {
-    padding: 30px 0px;
+    padding: 34px 0px;
 
 	.container {
 		padding: 0px 10px;
@@ -48,10 +48,10 @@ header.header {
             > a {
                 font-weight: 700;
                 font-size: 15px;
-                padding: 20px 0;
-				color: #343434;
-				transition: all .5s cubic-bezier(.25,.8,.25,1);
-
+                padding: 18px 0;
+                color: #090909;
+                transition: all .5s cubic-bezier(.25,.8,.25,1);
+                                
 				&:hover {
 					color: var(--brand);
 				}
@@ -104,19 +104,15 @@ header.header {
         }
 
         .header-btn {
-            margin-left: 25px;
-
             a {
                 @extend .btn;
-
-                border-radius: 30px;
-                background: #eeedff;
-                color: #6131e4;
-				padding: 0 26px;
+                padding: 0 28px;
+                background: #090909;
+                border-radius: 50px;
 
 				&:hover {
-					background: #e5e4f7;
-					color: #6131e4;
+                    background: #1a1a1a;
+                    color: #ffffff;
 				}
             }
         }
@@ -124,7 +120,7 @@ header.header {
 
     .primary {
         .menu {
-            margin-left: 40px;
+            margin-left: 50px;
         }
 	}
 

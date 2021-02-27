@@ -1,49 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" clip-rule="evenodd" viewBox="0 0 44 51" width="44px" height="auto">
-  <defs/>
-  <path fill="#8dd2e5" d="M22 0L0 12.701v25.404l22 12.702 22-12.702V12.701L22 .001z"/>
-  <path fill="#ad83bb" d="M0 12.701l22 12.702v25.404L0 38.105V12.701z"/>
-  <path fill="url(#svglogo1)" fill-rule="nonzero" d="M41.366 153.344v12.702l11 6.351v-12.702l-11-6.351z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo2)" fill-rule="nonzero" d="M30.366 146.994l22 12.701v12.702l-22-12.702v-12.701z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo3)" fill-rule="nonzero" d="M41.366 153.344v12.702l11 6.351v-12.702l-11-6.351z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo4)" fill-rule="nonzero" d="M30.366 159.695l22 12.702v12.702l-22-12.702v-12.702z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo5)" fill-rule="nonzero" d="M52.366 185.099l22-12.702v-12.702l-22 12.702v12.702z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo6)" fill-rule="nonzero" d="M30.366 146.994l22-12.702v12.702l-11 6.35-11-6.35z" transform="translate(-30.366 -134.292)"/>
-  <path fill="url(#svglogo7)" fill-rule="nonzero" d="M52.366 134.292l22 12.702-11 6.35-11-6.35v-12.702z" transform="translate(-30.366 -134.292)"/>
-  <path fill="#cdedfd" d="M11 19.052l11 6.35 11-6.35-11-6.35-11 6.35z"/>
-  <path fill="url(#logo8)" fill-rule="nonzero" d="M52.366 159.695l22-12.701v12.701l-22 12.702v-12.702z" transform="translate(-30.366 -134.292)"/>
-  <path fill="#b6dcfe" d="M22 38.105l11-6.351V19.052l-11 6.35v12.703z"/>
-  <defs>
-    <linearGradient id="svglogo1" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-180 26.19 -57.357) scale(10.9999)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#a579b5"/>
-      <stop offset="1" stop-color="#9a6eb0"/>
-    </linearGradient>
-    <linearGradient id="svglogo2" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(11.0417 .02426 -.02426 11.0417 29.736 431.969)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ba93c3"/>
-      <stop offset="1" stop-color="#a579b5"/>
-    </linearGradient>
-    <linearGradient id="svglogo3" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-180 26.19 -57.357) scale(10.9999)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#a579b5"/>
-      <stop offset="1" stop-color="#9a6eb0"/>
-    </linearGradient>
-    <linearGradient id="svglogo4" x1="0" x2="1" y1="0" y2="0" gradientTransform="translate(30.334 722.842) scale(22.0013)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#d3badb"/>
-      <stop offset="1" stop-color="#ba93c3"/>
-    </linearGradient>
-    <linearGradient id="svglogo5" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-180 37.193 -190.566) scale(21.9977)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c1e8fb"/>
-      <stop offset="1" stop-color="#b1dfe2"/>
-    </linearGradient>
-    <linearGradient id="svglogo6" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-60.001 529.589 -182.967) scale(17.59995)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b1dfe2"/>
-      <stop offset="1" stop-color="#a7d3f0"/>
-    </linearGradient>
-    <linearGradient id="svglogo7" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-119.999 201.69 -166.07) scale(17.59992)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#83d1e1"/>
-      <stop offset="1" stop-color="#a7d3f0"/>
-    </linearGradient>
-    <linearGradient id="svglogo8" x1="0" x2="1" y1="0" y2="0" gradientTransform="rotate(-119.28 122.2 -11.874) scale(5.57877)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b1dfe2"/>
-      <stop offset="1" stop-color="#a7d3f0"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="50px" viewBox="0 0 965 1671" version="1.1" xml:space="preserve">
+    <g transform="matrix(1,0,0,1,-4639.17,-3537.33)">
+        <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+            <g transform="matrix(1,0,0,1,-20.5599,-142.83)">
+                <path d="M1133.96,1058.63L1133.96,1325.99L1133.97,1325.99L1191.85,1359.42L1249.74,1392.83L1249.74,1259.15L1307.62,1225.73L1365.5,1192.31L1365.5,1058.63L1307.62,1025.21L1249.73,991.79L1191.85,1025.21L1133.96,1058.63ZM1249.74,1221.77L1249.74,1125.47L1249.73,1125.47L1191.85,1092.05L1166.34,1077.32L1208.04,1053.25L1249.73,1029.17L1291.43,1053.25L1333.13,1077.32L1333.13,1173.62L1291.43,1197.69L1249.74,1221.77Z" style="/* fill:rgb(72,128,194); */"></path>
+            </g>
+        </g>
+    </g>
 </svg>

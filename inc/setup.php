@@ -42,7 +42,7 @@ add_action('after_setup_theme', function() {
  */
 add_action('widgets_init', function () {
     register_sidebar([
-        'name'          => 'Footer: First',
+        'name'          => 'Footer: first',
         'id'            => 'footer-first',
         'description'   => 'First footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
@@ -52,7 +52,7 @@ add_action('widgets_init', function () {
     ]);
 
     register_sidebar([
-        'name'          => 'Footer: Second',
+        'name'          => 'Footer: second',
         'id'            => 'footer-second',
         'description'   => 'Second footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
@@ -62,9 +62,19 @@ add_action('widgets_init', function () {
     ]);
 
     register_sidebar([
-        'name'          => 'Footer: Third',
+        'name'          => 'Footer: third',
         'id'            => 'footer-third',
         'description'   => 'Third footer column.',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5>',
+        'after_title'   => '</h6>',
+    ]);
+
+    register_sidebar([
+        'name'          => 'Footer: fourth',
+        'id'            => 'footer-fourth',
+        'description'   => 'Fourth footer column.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
         'before_title'  => '<h5>',

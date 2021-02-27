@@ -26,7 +26,7 @@
 
 			<nav>
 				<a class="navbar-brand mobile-menu-only" href="<?= home_url() ?>">
-					<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.png" alt="<?= get_bloginfo() ?>">
+					<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">
 				</a>
 
 				<?php
@@ -49,7 +49,7 @@
 				?>
 
 				<li class="header-btn">
-					<a href="#">Get Started</a>
+					<a href="#">Download</a>
 				</li>
 			</ul>
 
