@@ -24,6 +24,8 @@
 				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">
 			</a>
 
+			<span class="separator"></span>
+
 			<nav>
 				<a class="navbar-brand mobile-menu-only" href="<?= home_url() ?>">
 					<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">

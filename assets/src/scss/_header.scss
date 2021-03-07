@@ -1,5 +1,5 @@
 header.header {
-    padding: 34px 0px;
+    padding: 40px 0px;
 
 	.container {
 		padding: 0px 10px;
@@ -8,6 +8,14 @@ header.header {
     .navbar-brand {
         display: flex;
         align-items: center;
+    }
+
+    .separator {
+        width: 15px;
+        height: 1px;
+        background: #090909;
+        margin-left: 35px;
+        margin-right: 5px;
     }
 
     .menu {
@@ -21,24 +29,13 @@ header.header {
             white-space: nowrap;
         }
 
-        > li + li {
-            margin-left: 30px;
-        }
-
         > li {
             display: inline-flex;
             position: relative;
 			align-items: center;
+            margin-left: 30px;
 
             &.menu-item-has-children {
-                > a:after {
-                    display: inline-flex;
-                    content: "\f107";
-                    font-family: Font Awesome\ 5 Free;
-                    margin-left: 10px;
-                    font-size: 10px;
-                }
-
                 &:hover .sub-menu {
                     opacity: 1;
                     visibility: visible;
@@ -48,7 +45,7 @@ header.header {
             > a {
                 font-weight: 700;
                 font-size: 15px;
-                padding: 18px 0;
+                padding: 15px 0;
                 color: #090909;
                 transition: all .5s cubic-bezier(.25,.8,.25,1);
                                 
@@ -106,10 +103,9 @@ header.header {
         .header-btn {
             a {
                 @extend .btn;
-                padding: 0 28px;
                 background: #090909;
-                border-radius: 50px;
-
+                height: 42px;
+            
 				&:hover {
                     background: #1a1a1a;
                     color: #ffffff;
@@ -117,12 +113,6 @@ header.header {
             }
         }
     }
-
-    .primary {
-        .menu {
-            margin-left: 50px;
-        }
-	}
 
 	svg {
 		fill: currentColor;

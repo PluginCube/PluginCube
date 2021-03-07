@@ -17,7 +17,9 @@ require_once 'inc/ajax.php';
 
 
 add_action('init', function () {
-    require_once 'inc/elementor/widgets/widgets.php';
-
-    Elementor\Widgets::get_instance();
+    if (class_exists('Elementor')) {
+        require_once 'inc/elementor/widgets/widgets.php';
+        
+        Elementor\Widgets::get_instance();
+    }
 });
