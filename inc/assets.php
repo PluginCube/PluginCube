@@ -6,7 +6,7 @@
  * @package PluginCube
  */
 
-namespace PluginCube\Ajax;
+namespace PluginCube;
 
 /**
  * Front-end Assets
