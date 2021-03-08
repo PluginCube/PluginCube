@@ -21,7 +21,9 @@
 	<div class="container d-flex justify-content-between align-items-center">
 		<div class="primary d-flex align-items-center">
 			<a class="navbar-brand" href="<?= home_url() ?>">
-				<img src="<?= get_template_directory_uri() ?>/assets/dist/img/logo.svg" alt="<?= get_bloginfo() ?>">
+				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="39" viewBox="0 0 25.4 44">
+					<path d="M0,7.33V36.67H0l6.35,3.66L12.7,44V29.33l6.35-3.66L25.4,22V7.33L19.05,3.67,12.7,0,6.35,3.67Zm12.7,17.9V14.67h0L6.35,11,3.55,9.38,8.13,6.74,12.7,4.1l4.58,2.64,4.57,2.64V20l-4.57,2.64Z"/>
+				</svg>
 			</a>
 
 			<span class="separator"></span>

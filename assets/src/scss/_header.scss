@@ -1,5 +1,10 @@
 header.header {
-    padding: 40px 0px;
+    padding: 35px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
 
 	.container {
 		padding: 0px 10px;
@@ -8,10 +13,11 @@ header.header {
     .navbar-brand {
         display: flex;
         align-items: center;
+        color: #090909;
     }
 
     .separator {
-        width: 15px;
+        width: 10px;
         height: 1px;
         background: #090909;
         margin-left: 35px;
@@ -48,7 +54,7 @@ header.header {
                 padding: 15px 0;
                 color: #090909;
                 transition: all .5s cubic-bezier(.25,.8,.25,1);
-                                
+                
 				&:hover {
 					color: var(--brand);
 				}
@@ -104,8 +110,9 @@ header.header {
             a {
                 @extend .btn;
                 background: #090909;
-                height: 42px;
-            
+                height: 40px;
+                padding: 0 20px;
+
 				&:hover {
                     background: #1a1a1a;
                     color: #ffffff;
@@ -198,4 +205,27 @@ header.header {
 			}
 		}
 	}
+}
+
+// light Header
+header.header.light {
+    .navbar-brand {
+        color: #f2f2f2;
+    }
+
+    .separator {
+        background: #555c61;
+    }
+
+    .menu {
+        .header-btn a {
+            background: var(--brand);
+        }
+        
+        > li {
+            a {
+                color: #f2f2f2;
+            }
+        }
+    } 
 }

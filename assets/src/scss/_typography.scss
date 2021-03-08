@@ -94,26 +94,16 @@ i {
 }
 
 blockquote {
-    font-style: italic;
     font-size: 18px;
     line-height: 29px;
     font-weight: 400;
     color: #39374d;
-    background-color: #f7f4fb;
+    background-color: #eee;
     border-radius: 5px;
     padding: 25px 30px;
     position: relative;
+    overflow: hidden;
     margin: 40px 0;
-}
-
-blockquote:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 3px;
-    height: 100%;
-    background-color: var(--brand);
 }
 
 blockquote cite {
