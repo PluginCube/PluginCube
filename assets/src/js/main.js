@@ -32,4 +32,19 @@ jQuery(($) => {
 	$('.burger-icon').on('click', function () {
 		$('header.header nav').toggleClass('open');
 	});
+
+	// Fixed header
+	const nav = $('header.header');
+	let headerHeight = nav.height();
+
+	$(window).on('load scroll', function(){
+		if ( $(window).scrollTop() > headerHeight ) {
+			nav.addClass('fixed-show');
+		} else {
+			nav.removeClass('fixed-show');
+		}
+	})
+
+	// Documentation header
+	$('.bpress-content-wrap header h2').html('Documentation')
 });

@@ -1,11 +1,18 @@
 .tax-knowledgebase_cat, .single-knowledgebase {
-    .bpress-page-header {
-        padding: 130px 30px 60px;
-        background-color: #dddddd;
+    padding-top: 0px;
+    
+
+    h1, h2, h3, h4, h5, h6 {
+        letter-spacing: -.03em !important;
     }
 
-    .bpress-page-header h1, .bpress-page-header h2 {
-        font-size: 34px;
+    .bpress-page-header {
+        padding: 115px 30px 110px;
+        background-color: #edf1f7;
+    }
+
+    .bpress-page-header h2 {
+        font-size: 36px;
         color: #090909;
 
         br {
@@ -16,16 +23,22 @@
     .bpress-search-submit {
         input {
             background-color: var(--brand);
-            text-transform: capitalize !important;
-            font-size: 14px !important;
+            text-transform: capitalize!important;
+            font-size: 14px!important;
             cursor: pointer;
+            font-weight: 500 !important;
+            border-radius: 5px !important;
         }
     }
 
     .bpress-search-field {
-        font-size: 14px !important;
+        font-size: 13px!important;
+        box-shadow: 0 5px 10px rgba(0, 0, 0,.05);
+        border: 1px solid rgba(0, 0, 0,.08) !important;
+        border-radius: 5px !important;
+        background: #ffffff !important;    
     }
-
+    
     .bpress-crumbs-wrap {
         background-color: transparent;
         border-bottom: 1px solid #eee;
@@ -33,11 +46,11 @@
     
     .bpress-sidebar .widget {
         margin-bottom: 2em !important;
-        padding: 25px !important;
-        border: 1px solid #eee;
+        padding: 20px !important;
+        border: none;
         border-radius: 3px;
         font-size: 1em;
-        background-color: #eee;
+        background-color: transparent;
     }
     
     .widget ul li:last-child {
@@ -46,11 +59,16 @@
     }
 
     .bpress-nav-article.active > .bpress-nav-item {
-        background: #e5e5e5;
+        background: #eeeeee;
     }
 
+    .bpress-nav-accordion .bpress-nav-item-title {
+        font-size: 15px;
+    }
+    
+
     .bpress-nav-section > .bpress-nav-item {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .bpress-nav-section > .bpress-nav-item:after {
@@ -61,18 +79,21 @@
         border-top: 1px solid;
         border-right: 1px solid;
     }
-
-    .bpress-post-header h1 {
-        margin-top: 0;
-        float: left;
-        width: 100%;
-    }
         
     .bpress-post-header {
-        margin-bottom: 1.75em;
+        margin-bottom: 2em;
     }
     
     .bpress-wrap p {
         line-height: 1.6;
-    }    
+    }
+
+    .bpress-breadcrumb-arrow {
+        margin: 0 10px;
+        color: inherit;
+    }
+    
+    .bpress-post-meta {
+        margin: initial;
+    }
 }

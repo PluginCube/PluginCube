@@ -1,3 +1,3 @@
-<?php get_header(); ?>
-    <? the_content(); ?>
-<?php get_footer(); ?>
+<?php
+    include get_template_directory() . '/archive.php';
+?>

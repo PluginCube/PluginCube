@@ -1,14 +1,19 @@
 header.header {
-    padding: 35px 0;
-    position: absolute;
+    padding: 30px 0;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
     width: 100%;
+    transition: all .25s cubic-bezier(.25,.8,.25,1);
 
 	.container {
 		padding: 0px 10px;
 	}
+
+    &.fixed-show {
+        background: white;
+    }
 
     .navbar-brand {
         display: flex;

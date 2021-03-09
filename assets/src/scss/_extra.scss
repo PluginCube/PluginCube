@@ -1,9 +1,27 @@
-main {
-    min-height: 550px;
+body {
+    padding-top: 105px;
+
+    main {
+        min-height: 550px;
+    }
+}
+
+.page-template-default, .page-template-template-support, {
+    article {
+        h1 {
+            text-transform: capitalize;
+        }
+
+        margin-bottom: 92px;
+    }
+}
+
+.page-template-template-full-width {
+    padding-top: 0px;
 }
 
 .archive-title {
     font-size: 34px;
-    margin: 50px 0px;
+    margin: 75px 0px 60px 0px;
     text-align: center;
 }
