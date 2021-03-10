@@ -1,18 +1,17 @@
 body {
     padding-top: 105px;
 
-    main {
+    > main {
         min-height: 550px;
+        margin-bottom: 92px;
     }
 }
 
-.page-template-default, .page-template-template-support, {
+.page-template-default, .page-template-template-support {
     article {
         h1 {
             text-transform: capitalize;
         }
-
-        margin-bottom: 92px;
     }
 }
 
